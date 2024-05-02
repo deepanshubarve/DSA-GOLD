@@ -1,19 +1,27 @@
 package Array2d;
 
+import java.util.Scanner;
+
 public class Array2d {
+    public static void main(String[] args) {
 
 
-    /*
-    1 2 3
-    4 5 6
-    7 8 9
-     */
+        int matrix[][] = new int[3][3];
+        int n = matrix.length;
+        int m = matrix[0].length;
 
-    int[][] arr = new int[3][];
-
-    int [][] arr2d = {
-            {1,2,3},//0th index
-            {4,5,6},//1st index
-            {7,8,9,6}//2nd index ->arr[2] = {7,8,9,6}
-    };
+        Scanner sc = new Scanner(System.in);
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; i < m; j++) {
+                matrix[i][j] = sc.nextInt();
+            }
+        }
+        //output
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; i < m; j++) {
+                System.out.print(matrix[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
 }
