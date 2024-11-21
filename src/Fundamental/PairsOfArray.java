@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class PairsOfArray {
     public static void main(String[] args) {
         int numbers[] = {32,34,23,12,53};

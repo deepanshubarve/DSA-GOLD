@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class DiamondPattern {
     public static void main(String[] args) {
 DP(4);

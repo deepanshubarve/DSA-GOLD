@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class invertedHalfPyramidNo {
     public static void main(String[] args) {
 IHPN(5);

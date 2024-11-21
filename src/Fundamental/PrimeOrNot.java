@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class PrimeOrNot {
     public static void main(String[] args) {
         System.out.println(isPrime(89));

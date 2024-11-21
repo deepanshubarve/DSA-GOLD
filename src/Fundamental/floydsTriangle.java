@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class floydsTriangle {
     public static void main(String[] args) {
         floyid(5);

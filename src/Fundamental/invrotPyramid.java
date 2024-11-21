@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class invrotPyramid {
     public static void main(String[] args) {
 IRP(5);

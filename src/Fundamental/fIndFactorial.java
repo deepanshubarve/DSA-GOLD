@@ -1,7 +1,9 @@
+package Fundamental;
+
 public class fIndFactorial {
     public static void main(String[] args) {
 
-        int fc = factorial(5);
+        int fc = factorial(30);
         System.out.println(fc);
 
 

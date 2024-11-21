@@ -1,6 +1,6 @@
 package Backtracking;
 
-public class Nways {
+public class NQueens {
 
 
     public static void printBoard(char board[][]){

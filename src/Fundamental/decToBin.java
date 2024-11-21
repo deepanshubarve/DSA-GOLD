@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class decToBin {
     public static void main(String[] args) {
 DTB(7);

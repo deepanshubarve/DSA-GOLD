@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class MInMAx {
     public static void main(String[] args) {
         int numbers[] = {88,34,22,5,444};

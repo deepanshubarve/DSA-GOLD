@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class MaxSum2 {
     public static void main(String[] args) {
         int numbers[] = { 1,-2,6,-1,3};

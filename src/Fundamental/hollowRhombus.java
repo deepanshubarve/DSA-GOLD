@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class hollowRhombus {
     public static void main(String[] args) {
 HR(7);

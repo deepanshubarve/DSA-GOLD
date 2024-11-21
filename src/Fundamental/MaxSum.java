@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class MaxSum {
     public static void main(String[] args) {
 

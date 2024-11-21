@@ -1,3 +1,5 @@
+package Fundamental;
+
 import java.util.Arrays;
 
 public class ChocolateDistribution {

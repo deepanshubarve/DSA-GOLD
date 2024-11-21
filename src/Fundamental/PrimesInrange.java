@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class PrimesInrange {
     public static void main(String[] args) {
       inRange(20);

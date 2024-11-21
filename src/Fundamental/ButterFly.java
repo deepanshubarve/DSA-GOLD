@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class ButterFly {
     public static void main(String[] args) {
         butFly(4);

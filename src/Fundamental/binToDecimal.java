@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class binToDecimal {
     public static void main(String[] args) {
       BTD(1110);

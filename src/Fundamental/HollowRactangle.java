@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class HollowRactangle {
     public static void main(String[] args) {
 

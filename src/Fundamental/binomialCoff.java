@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class binomialCoff {
     public static void main(String[] args) {
         System.out.println(cofficient(5,2));

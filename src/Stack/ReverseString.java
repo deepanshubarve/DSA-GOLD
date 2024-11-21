@@ -1,31 +1,32 @@
 package Stack;
 
-import BitManupulation.CheckOddAndEven;
-
 import java.util.Stack;
 
-public class PushAtBottom {
+public class ReverseString {
     public static void main(String[] args) {
-        Stack<Integer> s = new Stack<>();
-        s.push(1);
-        s.push(2);
-        s.push(3);
-        s.push(4);
+        String str = "Barve Deepanshu";
+        String res = reverse(str);
+        System.out.println(res);
 
-        pushAtBottom(s,5);
-        while (!s.isEmpty()){
-            System.out.println(s.pop());
-        }
     }
 
-    public static void pushAtBottom(Stack<Integer>s , int data){
-           if(s.isEmpty()){
-               s.push(data);
-               return;
-           }
+    public static String reverse(String str) {
+          Stack<Character> s = new Stack<>();
+          int idx = 0;
+          while(idx< str.length()){
+              s.push(str.charAt(idx));
+              idx++;
+          }
 
-           int top = s.pop();
-           pushAtBottom(s,data);
-           s.push(top);
+          StringBuilder sb = new StringBuilder(" ");
+          while(!s.isEmpty()){
+              char curr = s.pop();
+              sb.append(curr);
+          }
+
+          str = sb.toString();
+          return str;
     }
+
+
 }

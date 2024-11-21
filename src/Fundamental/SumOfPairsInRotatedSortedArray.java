@@ -1,3 +1,5 @@
+package Fundamental;
+
 public class SumOfPairsInRotatedSortedArray {
     public static void main(String[] args) {
 
