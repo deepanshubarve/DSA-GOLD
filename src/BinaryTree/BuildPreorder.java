@@ -96,7 +96,7 @@ public class BuildPreorder {
 
                     if(q.isEmpty()){
                         break;
-                }else{
+                    }else{
                         q.add(null);
                     }
                 }else {
